@@ -1,12 +1,13 @@
-import React from 'react';
+import React from 'react'
 import Header from '../components/Navbar/navbar';
 import Footer from '../components/Footer/footer';
 import Careerimage from '../components/Image/careerimage';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import { Card, CardGroup, Row, Col } from 'react-bootstrap';
+import Inquiry from '../components/Contact/contact';
 
-const Career = () => {
+const Aboutus = () => {
     return <div>
 
         <Header />
@@ -46,15 +47,13 @@ const Career = () => {
                         color: '#171c3f',
                         fontWeight: '700'
                     }}>
-                    Do you need custom software?</h2>
+                    Your own Software Development Company</h2>
 
-                <p>Most likely yes becuase every business is unique and need to innovate the unique way to solve business problems. <br />
-                    Custom software help you to solve your business problem more effectively and give you edge on competition.<br />
-                    Obviously,off-the-self software may not fit with your way to doing business many times, no worries let's<br />
-                    develope a custom software for you that exactly solve your own unique business problem perfectly. <br />
-                    Leverage our decades of experience in crafting bespoke software solution for businesses. Which <br />
-                    is user friendly, save you operational cost, scale with your business and secure. As Custom <br />
-                    Software.
+                <p>Prydan Software is a Web and Mobile App development company founded in the year 2016. <br />
+                    We are a team of passionate engineers and designers building awesome mobile and web<br />
+                    applications for startups and enterprises worldwide.Our teams have mastered <br/>
+                    remote collaboration and have built strong community ties around remote <br/> 
+                    locations in the U.S., Australia, UK and Canada.
                 </p>
             </div>
         </div>
@@ -220,9 +219,9 @@ const Career = () => {
                 </Row>
             </CardGroup>
         </div>
-
+<Inquiry />
         <Footer />
 
     </div>;
 };
-export default Career;
+export default Aboutus;

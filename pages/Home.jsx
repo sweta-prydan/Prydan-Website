@@ -13,7 +13,7 @@ import { Button, CardGroup, Row, Col, Card } from 'react-bootstrap';
 
 const Landing = () => {
     return <div>
-        <div className='container'
+        <div
             style=
             {{
                 marginBottom: "50px",
@@ -22,31 +22,33 @@ const Landing = () => {
                 fontWeight: "700",
                 background: "#171c3f",
             }}>
-            <h1 className='h1'
-                style=
-                {{
-                    fontSize: "59px",
-                    fontWeight: "700",
-                    color: "#fff",
-                    marginBottom: "40px"
-                }}>
-                Stay in Talk<br />
-                with Optimal Business <br />
-                Performance</h1>
+            <div className='container'>
+                <h1 className='h1'
+                    style=
+                    {{
+                        fontSize: "59px",
+                        fontWeight: "700",
+                        color: "#fff",
+                        marginBottom: "40px"
+                    }}>
+                    Stay in Talk<br />
+                    with Optimal Business <br />
+                    Performance</h1>
 
-            <p className='lead'
-                style=
-                {{
-                    color: "#fff",
-                    fontWeight: "500",
-                    lineHeight: "25px",
-                    fontSize: "14px"
-                }}>
-                Your partner for incredible mobile and web products. <br />
-                Finally delivered in great quality and on time.
-            </p>
+                <p className='lead'
+                    style=
+                    {{
+                        color: "#fff",
+                        fontWeight: "500",
+                        lineHeight: "25px",
+                        fontSize: "14px"
+                    }}>
+                    Your partner for incredible mobile and web products. <br />
+                    Finally delivered in great quality and on time.
+                </p>
 
-            <Button Button variant="outline-danger" className='rounded-pill'>Know More</Button>
+                <Button Button variant="outline-danger" className='rounded-pill'>Know More</Button>
+            </div>
         </div>
 
         <div>
@@ -73,7 +75,7 @@ const Landing = () => {
         <Poster />
 
         <Banner />
-                        
+
         <div
             style=
             {{
@@ -314,7 +316,7 @@ const Landing = () => {
 
         </div>
 
-      
+
 
         <div>
             <div className='container'
@@ -364,7 +366,7 @@ const Landing = () => {
 
         </div>
         <Blog />
-        <div className='container'
+        <div
             style=
             {{
                 marginBottom: "25px",
@@ -389,7 +391,7 @@ const Landing = () => {
             <Button Button variant="outline-danger" className='rounded-pill' style={{ textAlign: "center" }}>Let's Connect</Button>
 
         </div>
-        
+
         <Inquiry />
 
         <Footer />

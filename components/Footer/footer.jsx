@@ -116,6 +116,12 @@ export const Footer = () => {
                         width={160}
                         height={50}
                     />
+                    <address>
+                    <b>Address:</b><br/> 
+C-11, Kadamb Flats, Near Government Tubewell,
+Bopal, Ahmedabad - 380058 Gujarat, India
+</address>
+
                 </Col>
 
                 <Col sm={5}

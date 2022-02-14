@@ -75,6 +75,7 @@ const Header = () => {
             </NavDropdown>
             <NavDropdown.Divider></NavDropdown.Divider>
             <Nav.Link href="/Career">Career</Nav.Link>
+            <Nav.Link href="/Aboutus">About Us</Nav.Link>
 
           </Nav>
           <Form className="d-flex">

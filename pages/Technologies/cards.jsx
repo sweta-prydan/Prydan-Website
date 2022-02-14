@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 const Trend = () => {
     return <div>
-        <div className='container'>
+        <div>
             <div>
                 <Row>
                     <Col>
