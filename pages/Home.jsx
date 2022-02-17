@@ -309,8 +309,92 @@ const Landing = () => {
             </CardGroup>
         </div>
 
-
         <div>
+            <h2 style={{
+                fontSize: "40px",
+                marginBottom: "50px",
+
+                fontWeight: "700",
+
+                color: "#171c3f"
+            }}>Get an edge <br />
+                over your competition</h2>
+        </div>
+        <div>
+        <Row xs={1} md={2} className="g-4">
+                <Col
+                    style={{
+                        backgroundColor: "#f0f1f8",
+                        padding: "20px 0"
+                    }}>
+                    <Card.Img variant="top"  src="/getanedge-img1.png"
+                        style=
+                        {{
+                            borderRadius: "50%",
+                            overflow: "hidden",
+                            display: "block",
+                            float: "left",
+                            width: "250.333px",
+                            marginLeft: "30px",
+                            marginRight:"20px"
+                        }}>
+
+                    </Card.Img>
+
+                    <h3 
+                    style=
+                    {{  
+                        fontWeight: "700",
+                        marginBottom: "20px",
+                        color: "#171c3f"
+                    }}>
+                        Right talent that suits <br />
+                        your needs
+                    </h3>
+
+                    <p 
+                    style=
+                    {{
+                            margin:"12px",
+                            lineHeight: "25px"
+                    }}>
+                        Our diverse work culture invites the leading technology experts on board. We are always here to help you own a software solution that is developed and looked after by experts that are sharply skilled in their domains.
+                    </p>
+
+                </Col>
+
+                <Col
+                    style={{ backgroundColor: "#f0f1f8", padding: "20px 0" }}
+                    >
+                    <Card.Img variant="top" src="/getanedge-img2.png"
+                    style=
+                        {{
+                            borderRadius: "50%",
+                            overflow: "hidden",
+                            display: "block",
+                            float: "left",
+                            width: "250.333px",
+                            marginRight: "20px"
+                        }} />
+                        <h3 style=
+                    {{  
+                        fontWeight: "700",
+                        marginBottom: "20px",
+                        color: "#171c3f"
+                    }}>
+                        Quick Time to Market Gives You an Edge</h3>
+                        <p 
+                        style=
+                        {{
+                            margin: "10px 0",
+                            lineHeight: "25px"
+                        }}>
+                        We will ensure that your product is developed within a convenient amount of time and is ready to be launched in the market. It will assist you in holding a dominating stance that is essential for rising above the competition and separating yourself from the herd.                
+                        </p>
+                        </Col>
+            </Row>
+        </div>
+        <div>   
 
             <Trend />
 

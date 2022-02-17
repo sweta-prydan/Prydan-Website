@@ -48,7 +48,7 @@ export const Footer = () => {
                         <li>JavaScript</li>
                         <li>Magneto</li>
                         <a href='react'><li>React JS</li></a>
-                        <li>React Native</li>
+                        <a href='reactnative'><li>React Native</li></a>
                         <li>Spree</li>
                         <li>Vue.js</li>
                         <li>Wordpress</li>
@@ -168,7 +168,7 @@ Bopal, Ahmedabad - 380058 Gujarat, India
                 background: "#f0f1f8",
                 padding: "40px 0",
                 textAlign: "center"
-            }}>  Copyright © 2021 Prydan. All Rights Reserved.</div>
+            }}>  Copyright © 2022 Prydan. All Rights Reserved.</div>
     </div>;
 };
 

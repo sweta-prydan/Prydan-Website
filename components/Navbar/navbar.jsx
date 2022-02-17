@@ -34,16 +34,16 @@ const Header = () => {
               <NavDropdown.Item href="ecommece-development">E-Commerce Services</NavDropdown.Item>
               <NavDropdown.Item href="api-integration">App Integration & Development Services</NavDropdown.Item>
               <NavDropdown.Item href="custom-software">Custom Software Development Services</NavDropdown.Item>
-              <NavDropdown.Item href="">Enterprice Application Development Services</NavDropdown.Item>
-              <NavDropdown.Item href="">Software Testing</NavDropdown.Item>
+              <NavDropdown.Item href="enterpriseapp">Enterprice Application Development Services</NavDropdown.Item>
+              <NavDropdown.Item href="softwaretesting">Software Testing</NavDropdown.Item>
               <NavDropdown.Item href="hirededicated">Hire Dedicated Developers</NavDropdown.Item>
-              <NavDropdown.Item href="">Software Product Development Services</NavDropdown.Item>
+              <NavDropdown.Item href="softawre-product">Software Product Development Services</NavDropdown.Item>
               <NavDropdown.Item href="dedicated">Dedicated Software Development Services</NavDropdown.Item>
             </NavDropdown>
 
             <Nav.Link href="/company">Company</Nav.Link>
             <NavDropdown title="Technologies" id="basic-nav-dropdown">
-              <Row xs={2} md={8} lg={18}>
+              <Row xs={4} style={{ minWidth: "48rem" }}>
                 <Col>
                   <NavDropdown.Item>Front End</NavDropdown.Item>
                   <NavDropdown.Divider />
@@ -67,6 +67,26 @@ const Header = () => {
                   <NavDropdown.Item href="php">PHP</NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.3">Python</NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.3">Ruby on Rails</NavDropdown.Item>
+                </Col>
+                <Col>
+                  <NavDropdown.Item>Mobile</NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item href='android'>Android</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.3">Flutter</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.3">Ionic</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.3">.IOS</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.3">Kotlin</NavDropdown.Item>
+                  <NavDropdown.Item href="reactnative">React Native</NavDropdown.Item>
+                </Col>
+                <Col>
+                  <NavDropdown.Item>CMS & E-commerce</NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item href="#action/3.3">Druple</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.3">Django</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.3">Magneto</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.3">Spree</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.3">Wordpress</NavDropdown.Item>
+                
                 </Col>
               </Row>
             </NavDropdown>
